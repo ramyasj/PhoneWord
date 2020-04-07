@@ -59,11 +59,11 @@ namespace PhoneWord
 
             if (!string.IsNullOrEmpty(translatedNumber))
             {
-                // TODO:
+                callButton.IsEnabled = true;
             }
             else
             {
-                // TODO:
+                callButton.IsEnabled = true;
             }
         }
 
